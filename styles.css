@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: red;
+    background-color: blue;
     margin: 0;
     overflow: hidden;
 }
@@ -14,7 +14,7 @@ body {
 .container {
     text-align: center;
     background: black;
-    color: red;
+    color: blue;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
