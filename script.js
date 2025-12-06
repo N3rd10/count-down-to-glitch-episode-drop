@@ -5,7 +5,7 @@ function updateCountdown() {
     const timeDifference = targetDate - now;
 
     if (timeDifference <= 0) {
-        document.getElementById('countdown').innerText = "Worlds!!!!!";
+        document.getElementById('countdown').innerText = "Get to Watching!!!!!";
         document.getElementById('countdown').classList.add('large-text');
         return;
     }
