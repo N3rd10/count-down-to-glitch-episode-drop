@@ -70,10 +70,10 @@ document.addEventListener("DOMContentLoaded", () => {
             setTimeout(() => sprite.style.top = `${screenHeight + 100}px`, 1000); // Moves off-screen to avoid sticking
         }
 
-        setTimeout(moveSprite, getRandomDelay());
+       // setTimeout(moveSprite, getRandomDelay());
     }
 
     sprite.style.left = `-100px`;
     sprite.style.top = `-100px`;
-    setTimeout(moveSprite, getRandomDelay());
+    //setTimeout(moveSprite, getRandomDelay());
 });
